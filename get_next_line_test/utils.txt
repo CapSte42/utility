@@ -1,3 +1,0 @@
-dd if=/dev/urandom of=file_binario.bin bs=1K count=1
-
-xxd
