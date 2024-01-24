@@ -1,2 +1,16 @@
 Copiare e incollare nella cartella con gli eseguibili del progetto push_swap.
-Quindi eseguire da terminale ./test.sh "INSERIRE QUI NOME ESEGUIBILE"
+Quindi eseguire da terminale 
+
+./test.sh "push_swap"
+oppure
+./test.sh "checker"
+
+L'output da aspettarsi e':
+10 = input 'MAX_INT+1 MIN_INT'!
+Error
+push_swap exit status: 1
+
+10 = numero del test
+viene specificato l'input utilizzato
+Error (se il vostro programma stampa "Error" su stderr in caso di errore)
+exit status (generalmente impostato diverso da 0 in caso di problemi)
