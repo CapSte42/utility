@@ -1,6 +1,7 @@
 Copiare e incollare nella cartella con gli eseguibili del progetto push_swap.
 Quindi eseguire da terminale 
 
+chmod 500 *.sh
 ./test.sh "push_swap"
 oppure
 ./test.sh "checker"
